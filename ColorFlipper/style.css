@@ -1,0 +1,28 @@
+body{
+    background-color: #EFF2F7;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;;
+}
+.head {
+    color: #364652;
+    font-weight: 800;
+    
+
+}
+.flip{
+    border: 2px solid #364652;
+    background-color: #EFF2F7;
+    padding: 10px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+.flip:hover{
+    background-color: #2A2A29;
+    color: #EFF2F7;
+}
